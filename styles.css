@@ -1,7 +1,21 @@
 html, body{
     height: 100%;
     min-height: 100%;
-    background-color: hsl(216, 12%, 8%) ;
+    background-color: hsl(228, 11%, 9%);
+    color: white;
+    font-size: 100%;
+    font-family: 'Overpass', sans-serif;
+}
+
+img{
+    object-fit: fill;
+    width: 1.3em;
+    height: 1.3em;
+    background-color: rgba(255, 255, 255, 0.041);
+    border-radius: 3em;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-left: 1em;
 }
 
 body{
@@ -16,9 +30,77 @@ body{
 
 #card{
 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 20em;
     height: 20em;
     border-radius: 1em;
-    background-color: hsl(216, 12%, 54%);
+    background: linear-gradient(to bottom,hsl(215, 20%, 16%), hsl(215, 27%, 12%));
 
+}
+
+#alignment{
+
+    height: 100%;
+
+}
+
+h1{
+    
+    margin-top: 1em;
+    margin-left: 18px;
+    margin-bottom: 8px;
+}
+
+p{
+    
+    margin-top: 8px;
+    margin-left: 1.5em;
+    margin-bottom: 10px;
+    font-size: small;
+    color: hsl(218, 6%, 51%);
+}
+
+#rating_values{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+#rating_values button {
+    margin-right: 1.1em;
+    margin-left: 1.1em;
+    color: hsl(218, 6%, 51%);
+    font-weight: bold;
+}
+
+button{
+    
+    color: white;
+    border-radius: 3em;
+    background-color: rgba(255, 255, 255, 0.041);
+    width: 2.4em;
+    height: 2.4em;
+    border-width: 0em;
+    font-family: 'Overpass', sans-serif;
+
+}
+#submit{
+
+    border-radius: 2em;
+    width: 20em;
+    height: 2.5em;
+    box-shadow: none;
+    background-color: hsl(25, 97%, 53%);
+    border-width: 0em;
+    color: white;
 }
