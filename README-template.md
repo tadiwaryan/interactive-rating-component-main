@@ -16,8 +16,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -40,7 +38,10 @@ Users should be able to:
 
 ## My process
 
-- 
+- I tried to build the project step by step
+- Firstly i worked on the markup, i created the required elements and general structure.
+- I then worked on the styling, which was a ton of fun!😀
+- Currently am working the interactivity side of things, it's going well i guess😐
 
 ### Built with
 
