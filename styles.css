@@ -18,6 +18,12 @@ img{
     margin-left: 1em;
 }
 
+#thank_you{
+    object-fit: fill;
+    width: 8em;
+    height: 8em;
+}
+
 body{
     
     margin: 0px;
@@ -41,10 +47,14 @@ body{
 
 }
 
-#alignment{
+#initial_state{
 
     height: 100%;
 
+}
+
+#thank_you_state{
+    height: 100%;
 }
 
 h1{
