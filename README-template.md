@@ -82,7 +82,6 @@ Another skill which i am forgetting to mention is GIT, i am getting comfortable 
 - Website - [tadiwaryan](https://www.your-site.com)
 - Frontend Mentor - [@tadiwaryan](https://www.frontendmentor.io/profile/tadiwaryan)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
