@@ -94,6 +94,12 @@ button{
     font-family: 'Overpass', sans-serif;
 
 }
+
+#rating_values button:hover{
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+
 #submit{
 
     border-radius: 2em;
@@ -103,4 +109,9 @@ button{
     background-color: hsl(25, 97%, 53%);
     border-width: 0em;
     color: white;
+}
+
+#submit:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%);
 }
