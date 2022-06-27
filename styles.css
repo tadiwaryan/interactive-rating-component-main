@@ -7,7 +7,7 @@ html, body{
     font-family: 'Overpass', sans-serif;
 }
 
-img{
+#star{
     object-fit: fill;
     width: 1.3em;
     height: 1.3em;
@@ -20,8 +20,40 @@ img{
 
 #thank_you{
     object-fit: fill;
-    width: 8em;
-    height: 8em;
+    width: 7em;
+    height: 7em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#thanks_heading{
+
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#thank_you_text{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+    width: 20em;
+}
+
+#your_rating{
+
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.041);
+    border-radius: 1em;
+    color:hsl(25, 97%, 53%);
+    height: 18px;
+    width:19em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4px;
+    
+
 }
 
 body{
@@ -54,7 +86,14 @@ body{
 }
 
 #thank_you_state{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100%;
+    width: 100%
+
 }
 
 h1{
