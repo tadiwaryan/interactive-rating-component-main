@@ -57,6 +57,7 @@ content but instead take effect on the background only.
 My file management is somewhat better than my previous project which was the QR CODE challenge, check that out to see what i am doing better this time around.
 Another skill which i am forgetting to mention is GIT, i am getting comfortable with the tech the more i use it.
 I figured out how to use the event object, it is realy powerful and easy to use.
+I also managed to work with classes in this project which was so so exciting.
 
 
 ### Continued development
