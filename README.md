@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://tadiwaryan.github.io/interactive-rating-component-main/)
+
 
 ## My process
 
@@ -56,6 +56,8 @@ I also figured out how to use opacity through the use of RGBa values, they work 
 content but instead take effect on the background only.
 My file management is somewhat better than my previous project which was the QR CODE challenge, check that out to see what i am doing better this time around.
 Another skill which i am forgetting to mention is GIT, i am getting comfortable with the tech the more i use it.
+I figured out how to use the event object, it is realy powerful and easy to use.
+
 
 ### Continued development
 
@@ -70,16 +72,16 @@ Another skill which i am forgetting to mention is GIT, i am getting comfortable 
 - CSS units
 - HTML5 markup
 - Debugging
+- Web APIs
 ### Useful resources
 
 - [Working with the DOM](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents)
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Made with love by me!
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
+- Special thanks to Jab for always helping me out and reviewing my work!
