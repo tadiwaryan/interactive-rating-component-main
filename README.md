@@ -16,8 +16,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -40,7 +38,7 @@ Users should be able to:
 
 ## My process
 
-- 
+As usual i started by working on the markup and structure of the site. After organising the class names and ID's are got to start work on the style sheets. This was a lot of fun, i used flexbox for centering the divs. I also discovered RGBa values, which work great for tinkering with background opacity without messing withthe content. After sorting the stylesheets i started work on the scripting. This was i think my first time dealing with the DOM on a project besides tutorials and stuff.
 
 ### Built with
 
@@ -51,13 +49,13 @@ Users should be able to:
 
 ### What I learned
  
- So far i have managed to improve my flexbox skills, i did most of the layout of the site using flexbox.
+So far i have managed to improve my flexbox skills, i did most of the layout of the site using flexbox.
 I also figured out how to use opacity through the use of RGBa values, they work better than the opacity CSS property because they do not affect the 
 content but instead take effect on the background only.
 My file management is somewhat better than my previous project which was the QR CODE challenge, check that out to see what i am doing better this time around.
 Another skill which i am forgetting to mention is GIT, i am getting comfortable with the tech the more i use it.
 I figured out how to use the event object, it is realy powerful and easy to use.
-I also managed to work with classes in this project which was so so exciting.
+I also managed to work with classes in this project which was so so exciting. After days of frustration i managed to come up with a way of making the rating system work.....it was much simpler than i thought although i know there is probably a better way of implementing this system, i should have probably used web forms😥. 
 
 
 ### Continued development
