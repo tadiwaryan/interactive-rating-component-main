@@ -79,8 +79,6 @@ I also managed to work with classes in this project which was so so exciting. Af
 
 - Made with love by me!
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
 ## Acknowledgments
 
 - Special thanks to Jab for always helping me out and reviewing my work!
