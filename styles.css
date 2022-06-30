@@ -149,6 +149,11 @@ button{
     color: white;
 }
 
+#rating_values button:active{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
 #submit{
 
     border-radius: 2em;
@@ -160,7 +165,7 @@ button{
     color: white;
 }
 
-#submit:hover{
+#submit:active{
     background-color: white;
     color:hsl(25, 97%, 53%);
 }

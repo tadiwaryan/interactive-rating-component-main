@@ -16,71 +16,67 @@ let initialState = document.querySelector('#initial_state');
 
 let card = document.querySelector('#card');
 
-let numOne = ratingButtonOne.addEventListener('click', evt => {
 
-    let rating = evt.target.textContent;
+let rating = 0;
+
+console.log(rating);
+
+ratingButtonOne.addEventListener('click', ()=> {
+
+    if (rating>0){
+        rating = 1;
+    } else{
+        rating += 1;
+    };
+
     console.log(rating);
-
-    return Int(rating);
-
-
+    
 } );
 
-let numTwo = ratingButtonTwo.addEventListener('click', evt => {
+let numTwo = ratingButtonTwo.addEventListener('click',() => {
     
-    let rating = evt.target.textContent;
-    console.log(rating);
-
-    return Int(rating);
-
-});
-
-let numThree = ratingButtonThree.addEventListener('click', evt=> {
+    if (rating>0){
+        rating = 2;
+    } else{
+        rating += 2;
+    };
     
-    let rating = evt.target.textContent;
-    console.log(rating);
+    
+});
 
-    return Int(rating);
+let numThree = ratingButtonThree.addEventListener('click',() => {
+    
+    if (rating>0){
+        rating = 3;
+    } else{
+        rating += 3;
+    };
 
 });
 
-let numFour = ratingButtonFour.addEventListener('click', evt =>{
+let numFour = ratingButtonFour.addEventListener('click',() =>{
 
-    let rating = evt.target.textContent;
-    console.log(rating);
-
-    return Int(rating);
+    if (rating>0){
+        rating = 4;
+    } else{
+        rating += 4;
+    };
 
 });
 
-let numFive = ratingButtonFive.addEventListener('click', evt=>{
+let numFive = ratingButtonFive.addEventListener('click',() =>{
 
-    let rating = evt.target.textContent;
-    console.log(rating)
-
-    return Int(rating);
-
+    if (rating>0){
+        rating = 5;
+        
+    } else{
+        rating += 5;
+    };
 
 });
 
 submitButton.addEventListener('click', ()=>{
-   /* RATING LOGIC....WELL SORTA😅😅
-    let rating_num;
-
-    if (numOne > 0){
-        return rating_num += numOne;
-    } elseif (numTwo > 0){
-        return rating_num += numTwo;
-    } elseif (numThree){
-
-    } elseif(numFour){
-
-    } elseif (numFive){
-
-    } else{
-        return console.log('ERROR');
-    }
-    */
+  
     initialState.remove();
 
     let thankYouState = document.createElement('div');
@@ -116,7 +112,7 @@ submitButton.addEventListener('click', ()=>{
 
     thankYouState.appendChild(thankYouText);
 
-    yourRating.textContent = 'You selected ' + '*****' + ' out of 5';
+    yourRating.textContent = 'You selected ' + rating + ' out of 5';
 
     thanksHeading.textContent = 'Thank you!';
 
